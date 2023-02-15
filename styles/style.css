@@ -207,3 +207,32 @@
  .footer-icon i {
      margin-left: 10px;
  }
+
+ @media only screen and (max-width:688px) {
+
+     .journey-start,
+     .feature-section {
+         flex-direction: column-reverse;
+         justify-content: center;
+     }
+
+     .journey-heading {
+         text-align: center;
+     }
+
+     .logos-section {
+         display: none;
+     }
+
+     .popular-information {
+         grid-template-columns: repeat(1, 1fr);
+         justify-content: center;
+     }
+
+     .feature-info,
+     .feature-header {
+         text-align: center;
+     }
+ }
+
+ @media only screen and (min-width:689px) and (max-width: 992px) {}
