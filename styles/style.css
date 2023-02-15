@@ -230,8 +230,13 @@
      }
 
      .feature-info,
-     .feature-header {
+     .feature-header,
+     .header-section {
          text-align: center;
+     }
+
+     .header-section {
+         flex-direction: column;
      }
  }
 
